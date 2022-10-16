@@ -13,8 +13,13 @@ nav ul li {
   padding: 1rem;
 }
 nav ul li a {
-  color: #A91079;
+  color: #570A57;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+  transition: 500ms;
+}
+nav ul li a:hover {
+  color: #F806CC;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

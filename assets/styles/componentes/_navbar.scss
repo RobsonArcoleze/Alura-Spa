@@ -8,10 +8,15 @@ nav{
         li{
             padding: 1rem;
             a{
-                color: $secundaria;
+                color: $primaria;
                 font-weight: bold;
                 text-decoration: none;
                 text-transform: uppercase;
+                transition: 500ms;
+                &:hover{
+                    color: $terciaria;
+                    text-decoration: underline;
+                }
             }
         }
     }
