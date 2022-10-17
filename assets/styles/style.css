@@ -22,4 +22,67 @@ nav ul li a {
 nav ul li a:hover {
   color: #F806CC;
   text-decoration: underline;
+}
+
+.banner {
+  align-items: center;
+  background: url(../img/banner.jpeg) 27% center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  opacity: 0.9;
+}
+.banner .inner__banner {
+  background-color: #F806CC;
+  border-radius: 45px;
+  padding: 3rem;
+  opacity: 0.9;
+}
+.banner .inner__banner:hover {
+  cursor: pointer;
+  width: 30%;
+  box-shadow: 1px 1px 20px #F806CC;
+}
+.banner .inner__banner h1 {
+  color: #570A57;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.banner .inner__banner h2 {
+  color: #A91079;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  color: #570A57;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 1rem auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+#servicos h4 {
+  font-size: 2.5rem;
+  margin: 1rem auto;
+  text-align: center;
+  color: #A91079;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cards .card {
+  width: 60vh;
+  text-align: center;
+}
+.cards .card img {
+  max-width: 100%;
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */
