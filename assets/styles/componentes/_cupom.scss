@@ -12,14 +12,44 @@
         margin: 2rem;
        }
     }
-}
-
-.inscricao{
-    form{
-        display: flex;
-        justify-content: center;
-        .input{
-            width: 30%;
+    .input{
+        background-color: white;
+        border: 4px solid white;
+        border-radius: 20px;
+        margin: 0 auto;
+        max-width: 75vh;
+        width: auto;
+        input{
+            border: none;
+            font-size: $tamanho-do-texto / 3;
+            height: 20px;
+            max-width: 70vh;
+            outline: none;
+            text-align: center;
+            width: auto;
+        }
+        &:hover, &:focus-within{
+            box-shadow: 1px 1px 8px 1px $primaria;
+            outline: none;
+        }
+    }
+    button{
+        color: $terciaria;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: .75rem;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        outline: none;
+        text-align: center;
+        height: 30px;
+        width: 15vh;
+        &:hover{
+            color: white;
+            background-color: $terciaria;
+            box-shadow: 1px 1px 8px 1px $primaria;
         }
     }
 }
+

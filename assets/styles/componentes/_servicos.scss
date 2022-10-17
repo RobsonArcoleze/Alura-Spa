@@ -26,6 +26,15 @@
         text-align: center;
         padding-bottom: 1rem;
         width: 50vh;
+        transition: 500ms;
+        &:hover{
+            border-radius: 20px;
+            color: $primaria;
+            cursor: pointer;
+            width: 55vh;
+            box-shadow: 1px 1px 20px 1px ;
+            margin: 2rem;
+        }
         h5{
             font-size: $tamanho-do-texto / 1.5;
             font-weight: 400;
@@ -42,6 +51,9 @@
             max-width: 100%;
             padding: 0.1rem 0;
             border-bottom: 5px solid $secundaria;
+            &:hover{
+                border-radius: 20px;
+            }
         }
     }
 }
