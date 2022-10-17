@@ -32,6 +32,7 @@ nav ul li a:hover {
   justify-content: center;
   min-height: 350px;
   opacity: 0.9;
+  text-align: center;
 }
 .banner .inner__banner {
   background-color: #F806CC;
@@ -41,8 +42,7 @@ nav ul li a:hover {
 }
 .banner .inner__banner:hover {
   cursor: pointer;
-  width: 30%;
-  box-shadow: 1px 1px 20px #F806CC;
+  box-shadow: 1px 1px 20px #A91079;
 }
 .banner .inner__banner h1 {
   color: #570A57;
@@ -67,22 +67,58 @@ nav ul li a:hover {
   text-transform: uppercase;
 }
 #servicos h4 {
+  color: #A91079;
   font-size: 2.5rem;
   margin: 1rem auto;
   text-align: center;
-  color: #A91079;
 }
 
 .cards {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .cards .card {
-  width: 60vh;
   text-align: center;
+  padding-bottom: 1rem;
+  width: 50vh;
+}
+.cards .card h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0.5rem;
+  color: #570A57;
+}
+.cards .card p {
+  color: #A91079;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
 }
 .cards .card img {
   max-width: 100%;
-  padding-bottom: 1rem;
+  padding: 0.1rem 0;
+  border-bottom: 5px solid #A91079;
+}
+
+#cupom {
+  background-color: #F806CC;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #570A57;
+}
+#cupom .texto h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem;
+}
+
+.inscricao form {
+  display: flex;
+  justify-content: center;
+}
+.inscricao form .input {
+  width: 30%;
 }/*# sourceMappingURL=style.css.map */

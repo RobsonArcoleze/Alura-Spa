@@ -8,6 +8,7 @@
     justify-content: center;
     min-height: 350px;
     opacity: 0.9;
+    text-align: center;
     .inner__banner{
         background-color: $terciaria;
         border-radius: 45px;
@@ -15,8 +16,7 @@
         opacity: 0.9;
         &:hover{
             cursor: pointer;
-            width: 30%;
-            box-shadow: 1px 1px 20px$terciaria;
+            box-shadow: 1px 1px 20px $secundaria;
         }
         h1{
             color: $primaria;

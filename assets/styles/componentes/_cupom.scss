@@ -1,0 +1,25 @@
+@import '../abstract/variaveis';
+
+#cupom{
+    background-color: $terciaria;
+    padding: 4rem;
+    text-align: center;
+    .texto{
+       color: $primaria;
+       h2{
+        font-size: $tamanho-do-texto / 1.5;
+        font-weight: 700;
+        margin: 2rem;
+       }
+    }
+}
+
+.inscricao{
+    form{
+        display: flex;
+        justify-content: center;
+        .input{
+            width: 30%;
+        }
+    }
+}
